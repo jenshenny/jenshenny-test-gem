@@ -6,3 +6,6 @@ on:
 jobs:
   release:
     uses: jenshenny/gem-publishing-workflow/.github/workflows/release.yml@main
+    permissions:
+      contents: write
+      id-token: write
